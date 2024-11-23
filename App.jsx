@@ -23,7 +23,6 @@ export default function App() {
                 }
             ))
             setNotes(notesArr)
-            console.log(notesArr)
         })
         return () => unsub
     }, [])
